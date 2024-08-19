@@ -133,7 +133,7 @@ img{
 }
 
 .skill ul li:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .skill ul li strong {
@@ -186,3 +186,4 @@ img{
         float:left;
     }
   }
+
