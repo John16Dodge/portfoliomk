@@ -1,0 +1,21 @@
+/* Menu Region */
+#menu{
+  
+    background-color: #179BAE;
+    height: 40px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+.srch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
