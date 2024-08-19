@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -163,13 +163,24 @@
 
 
 
-
+<audio src="Clicker.mp3" id="audiotext"></audio>
 
 <script>
     function SoundParty(){
         var sound=new Audio("/Clicker.mp3");
         sound.play();
     }
+ let sound= document.getElementById("audiotext");
+ for(var i=0; i<=document.getElementsByTagName("li").length;i++)
+    document.getElementsByTagName("li")[i].addEventListener("mouseover",function(){
+    sound.play();
+ });
+
+ for(var i=0; i<=document.getElementsByTagName("li").length;i++)
+    document.getElementsByTagName("li")[i].addEventListener("mouseout",function(){
+    sound.pause();
+ });
+</script>
 </script>
 
 
